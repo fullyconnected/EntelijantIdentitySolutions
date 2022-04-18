@@ -10,6 +10,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import {ImageTop} from "./components/logo-header";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -26,12 +27,14 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
+        {/*<Header data={landingPageData.Header} />*/}
+        <About data={landingPageData.About} />
+
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
+<ImageTop data={landingPageData.ImageTop} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
+      {/*<Gallery data={landingPageData.Gallery}/>*/}
+      {/*<Testimonials data={landingPageData.Testimonials} />*/}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>

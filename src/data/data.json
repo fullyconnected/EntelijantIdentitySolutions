@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
+    "title": "Entelijant ID Solutions",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
@@ -132,17 +132,17 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "David Michel",
+      "job": "Founder"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Yvette Romero",
+      "job": "Co-founder"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "Nicole Yaciuk",
       "job": "Senior Designer"
     },
     {
@@ -152,12 +152,14 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "246 Walker Street, Cliffside Park, NJ 07010 ",
+    "phone": "+1 201 329 4395",
+    "email": "help@entelijant.io",
+    "facebook": "https://facebook.com/entelijant",
+    "twitter": "https://twitter.com/entelijant",
+    "youtube": "https://youtube.com/entelijant",
+    "telegram": "https://telegram.com/entelijant",
+    "instagram": "https://instagram.com/entelijant"
   },
   "Features": [
     {

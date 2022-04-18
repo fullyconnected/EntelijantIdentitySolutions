@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_c71tud7', 'template_r4ln919', e.target, 'entelijant'
       )
       .then(
         (result) => {
@@ -127,20 +127,31 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a target="_blank" href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a target="_blank" href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <a target="_blank" href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
+                  <li>
+                    <a target="_blank" href={props.data ? props.data.telegram : '/'}>
+                      <i className='fa fa-telegram'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram: '/'}>
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -150,9 +161,39 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vSUymePd2YHnSjSwO2sOiZfZ7hZgEWVWbGXjqyPVnCD5jjJU36TWRfUXlgkE1akjQ/pub' rel='nofollow'>
+              Disclaimer
+            </a>
+          |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vSYGGYQvhjfltME6-bElYAqloCIlHx17JhNiz8OGNXQvY0HbXBUUt8oDiW9Tryc6g/pub' rel='nofollow'>
+              Privacy Policy
+            </a>
+            |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vRmdeLCDgX910IOhpNR0LURgFCvwvyZyht6vUWE4FXoCa5g3GCyg4SCR7aM1tkZ_g/pub' rel='nofollow'>
+              EULA
+            </a>
+            |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vR4ZX1ogyIp_QBojE5OcZjIvC9c4LvStfN4M0pAyk3xLCZ7a4k-w3lALfp9uviisA/pub' rel='nofollow'>
+              Cookies Policy
+            </a>
+            |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vT6SW3RWv4VAXj_2eFntjTpjuA85PldmO_EI_YGrp6n9wLNsZNcqQJ-kYvZr_bg7Q/pub' rel='nofollow'>
+              Terms & Conditions
+            </a>
+            |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vQJfRT8AM4lZqgIQqGdNf62JG4fXujdWEq1A-p_zKZEDBt5NhQ_jDJea812wJvmIQ/pub' rel='nofollow'>
+              GDPR
+            </a>
+            |
+            <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/e/2PACX-1vT8P1t8q2t4ie7mLMX-TZFHAE_JJKBKe52lf_iPm-CziL6ZscqfoTUKZ0IyuwWrOg/pub' rel='nofollow'>
+              Refund Policy
+            </a>
+          </p>
+          <p>
+            &copy; 2022 Entelijant Identity Solutions
+            <a href='http://www.entelijant.io' rel='nofollow'>
+
             </a>
           </p>
         </div>
